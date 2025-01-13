@@ -43,7 +43,7 @@
       <label>Tolerance</label>
       <description>Tolerance for the inside/outside search algorithm (default 1e-6). Use lower values if holes appear in the skeleton. Set to
         zero to disable pruning of outside vertices</description>
-      <default>1e-6</default>
+      <default>0.000001</default>
     </double>
     <integer>
       <name>nBins</name>
